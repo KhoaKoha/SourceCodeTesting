@@ -1,0 +1,2 @@
+username,password,addcategoryname,duplicatecategoryname,expectedResult,deletecategoryname,deleteassignedcategoryname,expectedresult,editcategoryname,updatedcategoryname,pageName
+admin@example.com,password,Category,CategoryDuplicated,That category already exists,CategoryDelete,CategoryDelete,Food category must be empty before deleting,CategoryABC,UpdateCategoryABC,Inventory

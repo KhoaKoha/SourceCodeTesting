@@ -1,0 +1,2 @@
+username,password,expectedUsername
+admin@example.com,password,admin user

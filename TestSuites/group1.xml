@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="allSuites" verbose="1">
+    <parameter name="testDataFolder" value="TestData"></parameter>
+    <parameter name="environment" value="QA"></parameter>
+    <parameter name="dataMappingFileName" value="DataMappings.csv"></parameter>
+    <!--<parameter name="browser" value="ie"></parameter>-->
+    <test name="Pantry For Good from group 1" verbose="1">
+        <classes>
+            <class name="com.automation.test.testcases.demo.web.ui.SignInTests"></class>
+            <class name="com.automation.test.testcases.demo.web.ui.SignUpTests"></class>
+            <class name="com.automation.test.testcases.demo.web.ui.CustomersTests"></class>
+            <class name="com.automation.test.testcases.demo.web.ui.DonorsTests"></class>
+            <class name="com.automation.test.testcases.demo.web.ui.DeliveryDriversTests"></class>
+            <class name="com.automation.test.testcases.demo.web.ui.DeliveryRouteAssignmentsTests"></class>
+        </classes>
+    </test>
+</suite>

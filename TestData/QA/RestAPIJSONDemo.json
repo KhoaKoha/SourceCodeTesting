@@ -1,0 +1,20 @@
+[
+  {
+    "userId": 1,
+    "id": 0,
+    "title": "json data driven demo - obj 1",
+    "body": "This is just a test data 1"
+  },
+  {
+    "userId": 1,
+    "id": 0,
+    "title": "json data driven demo - obj 2",
+    "body": "This is just a test data 2"
+  },
+  {
+    "userId": 1,
+    "id": 0,
+    "title": "json data driven demo - obj 3",
+    "body": "This is just a test data 3"
+  }
+]
